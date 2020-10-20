@@ -1,8 +1,6 @@
 <img alt="React Native Empty State" src="assets/logo.png" width="1050"/>
 
-[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-empty-state)
-
-[![React Native Empty State](https://img.shields.io/badge/-Extremely%20easy%20to%20create%20a%20React%20Native%20Component%20Library%20with%20both%20Stateful%20and%20Functional%20Component%20Examples-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-empty-state)
+[![Empty State library which is fully customizable and simple for any state view use-cases](https://img.shields.io/badge/-Empty%20State%20library%20which%20is%20fully%20customizable%20and%20simple%20for%20any%20state%20view%20use--cases-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-empty-state)
 
 [![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-empty-state.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-empty-state)
 [![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-empty-state.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-empty-state)
