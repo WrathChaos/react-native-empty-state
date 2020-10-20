@@ -12,7 +12,7 @@
 
 <p align="center">
   <img alt="React Native Empty State"
-        src="assets/Screenshots/react-native-empty-state.jpg" />
+        src="assets/Screenshots/react-native-empty-state.png" />
 </p>
 
 # Installation

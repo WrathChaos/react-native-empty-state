@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@freakycoder/react-native-bounceable": "^0.2.2",
+    "@freakycoder/react-native-empty-state": "^0.1.0",
     "react": "16.13.1",
     "react-native": "0.63.3",
     "react-native-gorgeous-header": "^0.1.0"
