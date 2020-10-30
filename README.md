@@ -34,7 +34,7 @@ npm i @freakycoder/react-native-empty-state
 ## Import
 
 ```jsx
-import MyComponent from "@freakycoder/react-native-empty-state";
+import EmptyState from "@freakycoder/react-native-empty-state";
 ```
 
 ## Fundamental Usage
@@ -64,24 +64,27 @@ should work of the example project.
 
 ## Fundamentals
 
-| Property    |  Type  |  Default  | Description           |
-| ----------- | :----: | :-------: | --------------------- |
-| title       | string | undefined | change the title      |
-| description | string | undefined | change the descrition |
+| Property    |  Type  |  Default  | Description            |
+| ----------- | :----: | :-------: | ---------------------- |
+| title       | string | undefined | change the title       |
+| description | string | undefined | change the description |
 
 ## Customization (Optionals)
 
-| Property             |   Type    |  Default  | Description                                                            |
-| -------------------- | :-------: | :-------: | ---------------------------------------------------------------------- |
-| enableButton         |  boolean  |   false   | let you enable the button (must use it for button)                     |
-| onPress              | function  | undefined | set your own logic for the button functionality when it is pressed     |
-| buttonText           |  string   | undefined | change the button's text                                               |
-| style                | ViewStyle |  default  | set or override the style object for the main container                |
-| buttonStyle          | ViewStyle |  default  | set or override the style object for the button style                  |
-| titleTextStyle       | TextStyle |  default  | set or override the style object for the title text style              |
-| buttonTextStyle      | TextStyle |  default  | set or override the style object for the button's text style           |
-| descriptionTextStyle | TextStyle |  default  | set or override the style object for the description text style        |
-| ImageComponent       |   Image   |  default  | set your own component instead of default react-native Image component |
+| Property                  |    Type    |  Default  | Description                                                            |
+| ------------------------- | :--------: | :-------: | ---------------------------------------------------------------------- |
+| enableButton              |  boolean   |   false   | let you enable the button (must use it for button)                     |
+| onPress                   |  function  | undefined | set your own logic for the button functionality when it is pressed     |
+| buttonText                |   string   | undefined | change the button's text                                               |
+| style                     | ViewStyle  |  default  | set or override the style object for the main container                |
+| buttonStyle               | ViewStyle  |  default  | set or override the style object for the button style                  |
+| titleTextStyle            | TextStyle  |  default  | set or override the style object for the title text style              |
+| buttonTextStyle           | TextStyle  |  default  | set or override the style object for the button's text style           |
+| descriptionTextStyle      | TextStyle  |  default  | set or override the style object for the description text style        |
+| containerGlueStyle        | ViewStyle  |  default  | set or override the style object for the container glue style          |
+| descriptionContainerStyle | ViewStyle  |  default  | set or override the style object for the description container style   |
+| imageStyle                | ImageStyle |  default  | set or override the style object for the image style                   |
+| ImageComponent            |   Image    |  default  | set your own component instead of default react-native Image component |
 
 ## Future Plans
 

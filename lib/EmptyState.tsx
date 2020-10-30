@@ -1,5 +1,12 @@
 import * as React from "react";
-import { Text, Image, View, ViewStyle, TextStyle } from "react-native";
+import {
+  Text,
+  Image,
+  View,
+  ViewStyle,
+  TextStyle,
+  ImageStyle,
+} from "react-native";
 import RNBounceable from "@freakycoder/react-native-bounceable";
 /**
  * ? Local Imports
@@ -18,9 +25,12 @@ export interface IEmptyStateProps {
   ImageComponent?: any;
   style?: ViewStyle;
   buttonStyle?: ViewStyle;
+  imageStyle?: ImageStyle;
   titleTextStyle?: TextStyle;
   buttonTextStyle?: TextStyle;
+  containerGlueStyle?: ViewStyle;
   descriptionTextStyle?: TextStyle;
+  descriptionContainerStyle?: ViewStyle;
   imageSource: ISource;
   onPress?: () => void;
 }
@@ -32,10 +42,13 @@ const EmptyState = (props: IEmptyStateProps) => {
     description,
     enableButton = false,
     style,
+    imageStyle,
     buttonStyle,
     titleTextStyle,
     buttonTextStyle,
+    containerGlueStyle,
     descriptionTextStyle,
+    descriptionContainerStyle,
     ImageComponent = Image,
     imageSource,
     onPress,
@@ -45,11 +58,11 @@ const EmptyState = (props: IEmptyStateProps) => {
       <ImageComponent
         resizeMode="contain"
         source={imageSource}
-        style={styles.imageStyle}
+        style={[styles.imageStyle, imageStyle]}
       />
-      <View style={styles.containerGlue}>
+      <View style={[styles.containerGlue, containerGlueStyle]}>
         <Text style={[styles.titleTextStyle, titleTextStyle]}>{title}</Text>
-        <View style={styles.descriptionContainer}>
+        <View style={[styles.descriptionContainer, descriptionContainerStyle]}>
           <Text style={[styles.descriptionTextStyle, descriptionTextStyle]}>
             {description}
           </Text>
