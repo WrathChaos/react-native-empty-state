@@ -1,6 +1,6 @@
 {
   "name": "@freakycoder/react-native-empty-state",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Empty State library which is fully customizable and simple for any state view use-cases",
   "main": "./build/dist/EmptyState.js",
   "repository": "git@github.com:WrathChaos/react-native-empty-state.git",
